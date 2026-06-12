@@ -24,7 +24,7 @@ Scriberr is an open-source, and completely offline audio transcription applicati
 
 
 ## Why this fork?
-Hi everyone, this is a simple fork of Scriberr put together to make some simple dockerfile fixes to resolve UID permission conflicts in the CUDA 12.9 version of the image. At present, the current build with CUDA 12.9 on blackwell gpus errors out due to these permission conflicts, I can confirm that my version here is tested and confirmed to work on an RTX 5090 system. I have no intentions of maintaining this package, this was a one off contribution as I know that others may benefit. I have accordingly committed these changes to the original developer so that they can update the original repository accordingly and all can benefit :)
+Hi everyone, this is a simple fork of Scriberr put together to make some simple dockerfile fixes to resolve UID permission conflicts in the CUDA 12.9 version of the image. At present, the current build with CUDA 12.9 on blackwell gpus errors out due to these permission conflicts, I can confirm that my version here is tested and confirmed to work on an RTX 5090 system. I have no intentions of maintaining this package, this was a one off contribution. I have accordingly committed these changes to the original developer so that they can update the original repository and all can benefit :)
 
 ## Update on project status
 Hi everyone,
